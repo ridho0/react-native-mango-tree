@@ -9,8 +9,8 @@ import {
 } from 'react-native';
 import { StackNavigator } from 'react-navigation'
 
-import StartScreen from './app/components/start'
-import EndScreen from './app/components/end'
+import StartScreen from './components/start'
+import EndScreen from './components/end'
 
 export default class mangoTree extends Component {
   render() {
@@ -59,4 +59,4 @@ const App = StackNavigator({
   end: { screen: EndScreen }
 })
 
-AppRegistry.registerComponent('mangoTree', () => App);
+// AppRegistry.registerComponent('mangoTree', () => App);
